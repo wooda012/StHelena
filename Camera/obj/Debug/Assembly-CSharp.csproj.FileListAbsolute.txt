@@ -1,0 +1,2 @@
+/Users/seanseever/Downloads/CS485/Final Camera Test/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache
+/Users/seanseever/Downloads/CS485/Final Camera Test/obj/Debug/Assembly-CSharp.csproj.CoreCompileInputs.cache
