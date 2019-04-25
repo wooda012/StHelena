@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{3C9E3089-CF12-817C-0251-6442FA723221}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/pagesMenuToggle.cs">
+    <Files>
+      <File FileName="Assets/pagesMenuToggle.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="St. Helena" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="pagesMenuToggle.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="9f0aed19-c44e-4409-aa4b-e530d86ffee6" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
