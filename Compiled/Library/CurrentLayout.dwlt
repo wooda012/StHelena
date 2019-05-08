@@ -110,10 +110,10 @@ MonoBehaviour:
     y: 30
     width: 1440
     height: 757
-  m_MinSize: {x: 711, y: 498}
+  m_MinSize: {x: 713, y: 498}
   m_MaxSize: {x: 18008, y: 14048}
   vertical: 1
-  controlID: 208
+  controlID: 214
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -136,10 +136,10 @@ MonoBehaviour:
     y: 0
     width: 1440
     height: 757
-  m_MinSize: {x: 711, y: 498}
+  m_MinSize: {x: 713, y: 498}
   m_MaxSize: {x: 18008, y: 14048}
   vertical: 0
-  controlID: 209
+  controlID: 215
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -161,10 +161,10 @@ MonoBehaviour:
     y: 0
     width: 929
     height: 757
-  m_MinSize: {x: 200, y: 324}
-  m_MaxSize: {x: 4002, y: 8024}
+  m_MinSize: {x: 202, y: 348}
+  m_MaxSize: {x: 4002, y: 8048}
   vertical: 1
-  controlID: 210
+  controlID: 171
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -242,7 +242,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 498}
   m_MaxSize: {x: 10004, y: 14048}
   vertical: 1
-  controlID: 279
+  controlID: 216
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -534,10 +534,10 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 52430000
-      m_LastClickedID: 0
-      m_ExpandedIDs: f8f8ffff82f9ffff
+      scrollPos: {x: 0, y: 721}
+      m_SelectedIDs: 80ed0000
+      m_LastClickedID: 60800
+      m_ExpandedIDs: c877ffffea77ffff4690ffff8af9ffffd4fbffffe0fd000028000100fc0c0100960f0100a61d0100223f01003c570100
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -604,14 +604,14 @@ MonoBehaviour:
   m_StartGridSize: 64
   m_LastFolders: []
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: /Users/seanseever/Documents/GitHub/StHelena/Compiled
+  m_LastProjectPath: /Users/seanseever/Downloads/CS485/Final Camera Test
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: b6280000
     m_LastClickedID: 10422
-    m_ExpandedIDs: ffffffff00000000582b0000922f0000dc3a0000b83b00004a3d0000ae3f0000e442000078450000ce460000d0460000
+    m_ExpandedIDs: ffffffff00000000ba0c0000f41000003e1c00001a1d0000ac1e00001021000046240000da260000dc440000de440000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -639,7 +639,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000582b0000922f0000dc3a0000b83b00004a3d0000ae3f0000e442000078450000ce460000d0460000
+    m_ExpandedIDs: ffffffff00000000ba0c0000f41000003e1c00001a1d0000ac1e00001021000046240000da260000dc440000de440000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
