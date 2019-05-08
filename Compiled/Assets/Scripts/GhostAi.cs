@@ -12,6 +12,7 @@ public class GhostAi : MonoBehaviour {
     int current = 0;
     bool searching = true;
 
+    public AudioSource ghostSound;
     public Transform target;
     public float speed;
     private Vector3 offset;
@@ -23,6 +24,7 @@ public class GhostAi : MonoBehaviour {
         col = GetComponent<SphereCollider>();
         animations = GetComponent<Animation>();
         animations.Play("ghost idle");
+        ghostSound.GetComponent<AudioSource>();
     }
     
     // Search Mode
@@ -32,11 +34,13 @@ public class GhostAi : MonoBehaviour {
         
         flag += 1;
 
-        if (flag == 100 & searching == true){
+        if (flag == 300 & searching == true){
             // Get Position of Next Random Spawn Point
             current = Random.Range(0, spawnPoints.Length);
 
             // Move To that Position
+            ghostSound.time = 5.75f;
+            ghostSound.Play();
             transform.position = Vector3.MoveTowards(transform.position, spawnPoints[current].transform.position, 1000);
             flag = 0; 
         }
@@ -52,11 +56,9 @@ public class GhostAi : MonoBehaviour {
             // DEATH CUTSCENE
             if (dist < 2.0){
                 Debug.Log("I caught you");
-                animations.Play("ghost attack");
-                if (!animations.IsPlaying("ghost attack"))
-                {
-                    SceneManager.LoadScene(2);
-                }
+                //Show attack/death screen
+                //wait for screen to be over
+                SceneManager.LoadScene(2);
 
             }
         }

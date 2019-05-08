@@ -29,6 +29,8 @@ public class PageBehavior : MonoBehaviour
     float page4dist;
     public UnityEngine.Events.UnityEvent onPickup;
 
+    private AudioSource pickup;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -40,6 +42,7 @@ public class PageBehavior : MonoBehaviour
         pageNums[1] = UnityEngine.Random.Range(1, 9);
         pageNums[2] = UnityEngine.Random.Range(1, 9);
         pageNums[3] = UnityEngine.Random.Range(1, 9);
+        pickup = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -65,12 +68,14 @@ public class PageBehavior : MonoBehaviour
                 Destroy(page1);
                 UI_Page_1.color = UnityEngine.Color.white;
                 TEXTPAGE1.text= getRiddle(pageNums[0]);
+                if (!pickup.isPlaying) pickup.Play();
                 onPickup.Invoke();
             }
             if(page2 != null & page2dist < 4){
                 Destroy(page2);
                 UI_Page_2.color = UnityEngine.Color.white;
                 TEXTPAGE2.text= getRiddle(pageNums[1]);
+                if (!pickup.isPlaying) pickup.Play();
                 onPickup.Invoke();
 
             }
@@ -78,6 +83,7 @@ public class PageBehavior : MonoBehaviour
                 Destroy(page3);
                 UI_Page_3.color = UnityEngine.Color.white;
                 TEXTPAGE3.text = getRiddle(pageNums[2]);
+                if (!pickup.isPlaying) pickup.Play();
                 onPickup.Invoke();
 
             }
@@ -85,6 +91,7 @@ public class PageBehavior : MonoBehaviour
                 Destroy(page4);
                 UI_Page_4.color = UnityEngine.Color.white;
                 TEXTPAGE4.text = getRiddle(pageNums[3]);
+                if (!pickup.isPlaying) pickup.Play();
                 onPickup.Invoke();
 
             }

@@ -12,6 +12,7 @@ public class Controller : MonoBehaviour
     public float flashDuration; //keeps track of how long the flashlight lasts, in minutes
     public float stamina;
     public LayerMask ground;
+    public AudioSource gate;
     [SerializeField]  private Transform feet;
     [SerializeField]  private Transform shoulder;
     [SerializeField] private Transform waist;
@@ -63,6 +64,7 @@ public class Controller : MonoBehaviour
         rbody = GetComponent<Rigidbody>();
         chargeCount = 0;
         originalStamina = stamina;
+        gate.time = 3.5f;
     }
 
     // Update is called once per frame
@@ -108,7 +110,6 @@ public class Controller : MonoBehaviour
         }
 
         TurnHead();
-
 
 
     }

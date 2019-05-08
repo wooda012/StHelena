@@ -8,6 +8,7 @@ public class pagesMenuToggle : MonoBehaviour
     [SerializeField] private GameObject chargeMessage;
     [SerializeField] private UnityEngine.Events.UnityEvent chargePhone;
     [SerializeField] private bool isOpen;
+    public AudioSource pageOpen;
 
     private RaycastHit outlets;
 
@@ -17,6 +18,7 @@ public class pagesMenuToggle : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.X))
         {
             isOpen = !isOpen;
+            if(isOpen) { pageOpen.Play(); }
         }
         if(isOpen)
         {
@@ -40,7 +42,7 @@ public class pagesMenuToggle : MonoBehaviour
 
     void ActivateMenu()
     {
-          pagesMenuUI.SetActive(true);
+        pagesMenuUI.SetActive(true);
     }
 
     void DeactivateMenu()

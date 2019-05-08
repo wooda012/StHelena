@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/St. Helena.unity
     guid: b905e74ec8ba14dd2af82384a3f5d813
+  - enabled: 1
+    path: Assets/Scenes/DeadMenu.unity
+    guid: 1801f7a36e1ebf64bbacca37c2ea1223
   m_configObjects: {}
